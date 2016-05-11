@@ -1,6 +1,6 @@
 <?php
 
-    $dbName = '2_sbm_auto_pro';
+    $dbName = 'dbName';
 	include(dirname(__FILE__)."/../Connect.php");
 
     $qry_delete = "DELETE FROM ".$TableName." WHERE ".$Condition;
